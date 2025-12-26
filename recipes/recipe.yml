@@ -41,6 +41,8 @@ modules:
           - com.brave.Browser
           - org.gnome.Loupe
           - org.libreoffice.LibreOffice
+          - io.github.zaedus.spider
+          - it.mijorus.gearlever
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
